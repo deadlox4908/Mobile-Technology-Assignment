@@ -1,11 +1,46 @@
-# Sample Snack app
+# Campus Carpool 🚗
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A mobile application developed using **React Native and Expo** that allows students to share rides to and from campus. The app helps students find available trips, book seats, calculate fares, and manage their bookings through a simple and user-friendly interface.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- **Available Trips** – Browse different campus carpool routes and fares.
+- **Seat Booking** – Select trips and book multiple seats.
+- **Fare Calculation** – Automatically calculate total fares, booking fees, and 10% student discounts.
+- **Live Transport Schedule** – View departure times and trip statuses based on the current time.
+- **Booking Confirmation** – Generate a booking receipt with passenger and trip details.
+- **Booking History** – View previous bookings, total fares, and estimated CO₂ savings.
+- **Eco-Impact** – Display estimated CO₂ savings from sharing rides.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Built With
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- React Native
+- Expo
+- JavaScript
+- React Hooks (useState, useEffect, useMemo, useRef)
+- React Native Safe Area Context
+
+## Design
+
+The application uses a clean and simple interface with a teal and off-white colour scheme. It is designed to provide an easy booking experience with clear navigation and readable information.
+
+## Getting Started
+
+1. Open the project using [Expo Snack](https://snack.expo.dev/).
+2. Import or paste the project source code.
+3. Make sure the required dependencies are installed.
+4. Run the application using the Expo preview.
+
+## Notes
+
+- Booking history is stored temporarily during the current app session.
+- Trip schedules are based on the device's current date and time.
+- The application uses sample trip information and does not connect to a real transport booking system or payment gateway.
+
+## Project
+
+**Project Name:** Campus Carpool
+
+**Platform:** Android / iOS / Web (Expo-supported platforms)
+
+**Purpose:** To provide students with a convenient way to share transportation, reduce travel costs, and encourage more sustainable commuting.
